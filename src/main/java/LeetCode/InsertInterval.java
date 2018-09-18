@@ -20,6 +20,7 @@ public class InsertInterval {
         {
             System.out.println(rec.getStart()+"-----:::"+rec.getEnd());
         }
+        System.out.println("-=--=-FINISHED--=-=");
     }
 
     public LinkedList<Interval> insert(LinkedList<Interval> intervals, Interval newInterval) {
